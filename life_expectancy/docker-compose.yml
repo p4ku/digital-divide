@@ -1,0 +1,10 @@
+services:
+  streamlit:
+    container_name: "streamlit-life-expectancy-app"
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    environment:
+      BASE_URL_PATH: "${BASE_URL_PATH:-/}"
+    ports:
+      - '${EXTERNAL_PORT:-8501}:8501'
