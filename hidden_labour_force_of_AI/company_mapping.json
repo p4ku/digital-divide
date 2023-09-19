@@ -1,0 +1,19 @@
+[
+  {"city": "New Delhi", "company": "Hive, Mindy, Cogito, TELUS, Alegion", "offset": [15, 15]},
+  {"city": "Kathmandu", "company": "CloudFactory", "offset": [15, 5]},
+  {"city": "Nairobi", "company": "Scale, CloudFactory, Alegion", "offset": [15, -15]},
+  {"city": "Manila", "company": "Scale", "offset": [15, -15]},
+  {"city": "Hanoi", "company": "Scale", "offset": [25, 5]},
+  {"city": "Bucharest", "company": "Mindy", "offset": [15, 15]},
+  {"city": "Sofia", "company": "Mindy", "offset": [24, 26]},
+  {"city": "Kyiv", "company": "Mindy", "offset": [15, 25]},
+  {"city": "Istanbul", "company": "HitL", "offset": [20, 10]},
+  {"city": "Damascus", "company": "HitL", "offset": [10, 7]},
+  {"city": "Baghdad", "company": "HitL", "offset": [5, -5]},
+  {"city": "Kabul", "company": "HitL", "offset": [5, 5]},
+  {"city": "Washington,  D.C.", "company": "TELUS, Clickworker", "offset": [5, -5]},
+  {"city": "London", "company": "Clickworker", "offset": [-25, 5]},
+  {"city": "Berlin", "company": "Clickworker", "offset": [-25, 15]},
+  {"city": "Kuala Lumpur", "company": "Alegion", "offset": [-5, 5]},
+  {"city": "Cairo", "company": "Alegion", "offset": [15, -10]}
+]
