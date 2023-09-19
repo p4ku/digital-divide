@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . .
-COPY config.toml /root/.streamlit/config.toml
+COPY ./config.toml /root/.streamlit/config.toml
 
 RUN pip3 install -r requirements.txt
 
