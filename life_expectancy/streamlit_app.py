@@ -115,4 +115,5 @@ with tab3:
 with tab4:
     st.header('Data')
     st.write(f'In this table, it is possible to observe raw data.')
-    st.dataframe(df_test, use_container_width=True)
+    columns_to_display = [col for col in df_test.columns if col != 'geometry']
+    st.dataframe(df_test[columns_to_display], use_container_width=True)

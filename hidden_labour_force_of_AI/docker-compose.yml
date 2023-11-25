@@ -1,3 +1,4 @@
+version: '3'
 services:
   streamlit:
     container_name: "streamlit-hidden-labour-force-of-AI-app"
