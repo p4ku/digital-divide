@@ -116,4 +116,5 @@ with tab2:
 with tab3:
     st.header('Data')
     st.write(f'In this table, it is possible to observe raw data.')
+    geo_gigwork['geometry'] = geo_gigwork['geometry'].astype(str)
     st.dataframe(geo_gigwork, use_container_width=True)
