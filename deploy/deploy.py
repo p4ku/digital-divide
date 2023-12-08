@@ -1,8 +1,9 @@
 import os
 import glob
 import toml
-import shutil
 import subprocess
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def load_config(config_path):
@@ -24,11 +25,11 @@ def set_env_and_run_docker(config, dir_path, external_port):
     application_config = config.get('application', {})
     application_name = application_config.get('name', '')
     os.environ["APP_PATH"] = dir_path
-    os.environ["BASE_URL_PATH"] = f"{application_name}"
+    os.environ["BASE_URL_PATH"] = application_name
     os.environ["CONTAINER_NAME"] = f'strealmit-{application_name}'
     os.environ["EXTERNAL_PORT"] = str(external_port)
 
-    docker_compose_path = os.path.join(dir_path, 'docker-compose.yml')
+    docker_compose_path = os.path.abspath(os.path.join(script_dir, 'docker-compose-template.yml'))
     print(f"Dir path: {dir_path}")
     print(f"Base URL Path: {application_name}")
     print(f"Container Name: {os.environ['CONTAINER_NAME']}")
@@ -75,16 +76,11 @@ def reload_applications(apps_directory):
         external_port += 1
 
     full_nginx_config = "\n".join(nginx_configs)
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    nginx_config_path = os.path.join(script_dir, 'nginx_config', 'nginx.config')
-
-    with open(nginx_config_path, 'w') as nginx_file:
-        nginx_file.write(full_nginx_config)
-
-    # Copy the Nginx configuration to /etc/nginx/snippets/
     nginx_snippets_path = '/etc/nginx/snippets/ddivs.config'
-    shutil.copy(nginx_config_path, nginx_snippets_path)
-    print(f"Nginx Configuration copied to {nginx_snippets_path}")
+
+    print(f"Save Nginx Configuration: {nginx_snippets_path}")
+    with open(nginx_snippets_path, 'w') as nginx_file:
+        nginx_file.write(full_nginx_config)
 
     # Restart Nginx
     subprocess.run(["sudo", "systemctl", "restart", "nginx"])
@@ -92,7 +88,5 @@ def reload_applications(apps_directory):
 
 
 if __name__ == '__main__':
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-
     apps_directory = os.path.abspath(os.path.join(script_dir, '../apps'))
     reload_applications(apps_directory)
