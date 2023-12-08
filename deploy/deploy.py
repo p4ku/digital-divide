@@ -1,6 +1,7 @@
 import os
 import glob
 import toml
+import shutil
 import subprocess
 
 
@@ -80,7 +81,14 @@ def reload_applications(apps_directory):
     with open(nginx_config_path, 'w') as nginx_file:
         nginx_file.write(full_nginx_config)
 
-    print(f"Combined Nginx Configuration saved to {nginx_config_path}")
+    # Copy the Nginx configuration to /etc/nginx/snippets/
+    nginx_snippets_path = '/etc/nginx/snippets/ddivs.config'
+    shutil.copy(nginx_config_path, nginx_snippets_path)
+    print(f"Nginx Configuration copied to {nginx_snippets_path}")
+
+    # Restart Nginx
+    subprocess.run(["sudo", "systemctl", "restart", "nginx"])
+    print("Nginx has been restarted.")
 
 
 if __name__ == '__main__':
