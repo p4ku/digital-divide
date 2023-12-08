@@ -3,7 +3,6 @@ ARG APP_PATH
 
 WORKDIR /app
 
-RUN echo "****************"
 RUN pwd
 RUN apt-get update && apt-get install -y \
     build-essential \

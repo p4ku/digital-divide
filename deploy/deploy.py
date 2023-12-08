@@ -24,7 +24,7 @@ def set_env_and_run_docker(config, dir_path, external_port):
     application_config = config.get('application', {})
     application_name = application_config.get('name', '')
     os.environ["APP_PATH"] = dir_path
-    os.environ["BASE_URL_PATH"] = f"/{application_name}"
+    os.environ["BASE_URL_PATH"] = f"{application_name}"
     os.environ["CONTAINER_NAME"] = f'strealmit-{application_name}'
     os.environ["EXTERNAL_PORT"] = str(external_port)
 
