@@ -108,7 +108,7 @@ with tab2:
     ax.set_title('Global Locations of Data Annotators')
 
     mappable = cm.ScalarMappable(norm=colors.Normalize(vmin=0, vmax=1, clip=False), cmap='Blues')
-    plt.colorbar(mappable, ax=ax, orientation='vertical', location='right', shrink=.3,
+    plt.colorbar(mappable, ax=ax, orientation='horizontal', location='top', shrink=.3,
                  label='Share (%) of Online Data Entry Jobs')
 
     st.pyplot(fig.figure)

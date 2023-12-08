@@ -17,7 +17,7 @@ st.set_page_config(
 
 @st.cache_data
 def get_data():
-    users = pd.read_csv('./List of Countries by number of Internet Users - Sheet1.csv')
+    users = pd.read_csv('List of Countries by number of Internet Users - Sheet1.csv')
     users = users.sort_values('Country or Area', ascending=False).drop_duplicates('Country or Area').sort_index()
     users['Population'] = users['Population'].str.replace(',', '').astype(int)
     users['Internet Users'] = users['Internet Users'].str.replace(',', '').astype(int)

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  streamlit:
+    container_name: "${CONTAINER_NAME}"
+    build:
+      dockerfile: ${APP_PATH}Dockerfile
+      context: ${APP_PATH}
+      args:
+        APP_PATH: "${APP_PATH}"
+        INTERNAL_PORT: "${INTERNAL_PORT}"
+        BASE_URL_PATH: "${BASE_URL_PATH}"
+        REQUIREMENTS_PATH: ./requirements.txt
+        CONFIG_PATH: ./config.toml
+    environment:
+      BASE_URL_PATH: "${BASE_URL_PATH}"
+    ports:
+      - '${EXTERNAL_PORT:-8503}:${INTERNAL_PORT:-8503}'
