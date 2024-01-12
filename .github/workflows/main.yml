@@ -1,0 +1,16 @@
+name: Deployment Trigger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger Deployment
+      env:
+        DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
+      run: |
+        curl -X GET "https://ddvis.oii.ox.ac.uk/deploy?key=${DEPLOYMENT_KEY}"
