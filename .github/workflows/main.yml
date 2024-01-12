@@ -7,13 +7,10 @@ on:
 
 jobs:
   trigger-deployment:
-    runs-on: ubuntu-latest
     steps:
     - name: Trigger Deployment
-      env:
-        DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
       uses: satak/webrequest-action@master
       with:
-        url: https://ddvis.oii.ox.ac.uk/deploy?key=${{ DEPLOYMENT_KEY }}
+        url: https://ddvis.oii.ox.ac.uk/deploy?key=${{ secrets.DEPLOYMENT_KEY }}
         method: GET
 

@@ -48,23 +48,11 @@ with tab1:
         f'In this plot, it is possible to observe the presence of outliers. The ages **around and over 100** are most likely erroneous data inputs. These errors may have been made by accident or on purpose. For instance, some users may not want to disclose their personal information.')
 
     annotations = []
-    # TODO: Fix annotations
-    # for x, y, label, offset in zip(geogigwork_cities.geometry.centroid.x,
-    #                                geogigwork_cities.geometry.centroid.y,
-    #                                geogigwork_cities.company,
-    #                                geogigwork_cities.offset):
-    #     annotations.append(dict(
-    #         text=label, x=x, y=y,
-    #         showarrow=True,
-    #         font=dict(color='black', size=10),
-    #         xref='x', yref='y'))
-
     fig = px.choropleth(geo_gigwork,
                         locations='country',
                         locationmode='country names',
                         color="share",
                         hover_name="country",
-                        # color_continuous_scale=px.colors.sequential.Plasma,
                         labels={'share': 'Share (%) of Online Data Entry Jobs'}
                         )
     fig.update_geos(fitbounds='locations', visible=False)
