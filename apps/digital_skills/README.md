@@ -1,7 +1,7 @@
 # Build and run
 
 ```bash
-export BASE_URL_PATH=/internet_users_by-country
+export BASE_URL_PATH=/digital-skills
 export EXTERNAL_PORT=5102
 
 docker-compose up --build
@@ -10,7 +10,7 @@ docker-compose up --build
 # NGINX proxy configuration
 
 ```nginx
-location ~ ^/internet_users_by-country(/.*)$ {
+location ~ ^/digital-skills(/.*)$ {
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;

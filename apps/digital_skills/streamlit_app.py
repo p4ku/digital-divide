@@ -32,17 +32,19 @@ def get_geometries(users: DataFrame):
     #  ['Country or Area', 'Internet Users', 'Population', 'Rank', 'Percentage', 'Rank.1']
 
     df1 = df[['NAME', 'geometry']]
-    df1.rename(columns={'NAME': 'country'}, inplace=True)
+    df1.rename(columns={'NAME': 'country_name'}, inplace=True)
 
     users_2 = users.copy()
 
-    merged = df1.merge(users2, how='left', on='country')
+    merged = users_2.merge(df1, how='left', on='country_name')
 
     return merged
 
 
 df = get_data()
 geo_df = get_geometries(df)
+
+print(geo_df.head())
 
 tab1, tab2 = st.tabs(
     ['**Map**', '**Data**'])
@@ -53,11 +55,13 @@ with tab1:
         f'This plot shows the prevalence of basic digital skills across the UK and European Union since 2016.')
 
     fig = px.choropleth(geo_df,
-                        locations='country',
+                        locations='country_name',
                         locationmode='country names',
                         color="At least basic digital skills",
-                        hover_name="country",
-                        # color_continuous_scale=px.colors.sequential.Plasma,
+                        hover_name="country_name",
+                        animation_frame="period", animation_group="country",
+                        range_color = [0,100],
+                        #color_continuous_scale=px.colors.sequential.Plasma,
                         labels={'At least basic digital skills': 'At least basic digital skills'}
                         )
     fig.update_geos(fitbounds='locations', visible=False)
@@ -67,5 +71,5 @@ with tab1:
 with tab2:
     st.header('Data')
     st.write(f'In this table, it is possible to observe raw data.')
-    columns_to_display = [col for col in df.columns if col != 'geometry']
-    st.dataframe(df[columns_to_display], use_container_width=True)
+    columns_to_display = [col for col in geo_df.columns if col != 'geometry']
+    st.dataframe(geo_df[columns_to_display], use_container_width=True)
