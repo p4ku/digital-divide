@@ -60,7 +60,7 @@ with tab1:
                         color="At least basic digital skills",
                         hover_name="country_name",
                         animation_frame="period", animation_group="country",
-                        range_color = [0,100],
+                        range_color = [50,100],
                         #color_continuous_scale=px.colors.sequential.Plasma,
                         labels={'At least basic digital skills': 'At least basic digital skills'}
                         )
