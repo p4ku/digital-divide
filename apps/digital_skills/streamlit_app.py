@@ -43,6 +43,7 @@ def get_geometries(users: DataFrame):
 
     return merged
 
+@st.cache_data
 def reg_data(df:DataFrame):
     offset_df = df[['period','At least basic digital skills','ISO']]
     offset_df['offset_period'] = offset_df['period'] - 4
@@ -58,6 +59,7 @@ def reg_data(df:DataFrame):
 
     return out_df
 
+@st.cache_data
 def generateColorScale(colors, naColor):
     colorArray=[]
     colorArray.append([0,naColor])
@@ -68,8 +70,6 @@ def generateColorScale(colors, naColor):
 df = get_data()
 geo_df = get_geometries(df)
 reg_df = reg_data(df)
-
-print(geo_df.head())
 
 tab1, tab2, tab3, tab4 = st.tabs(
     ['**Digital Skills**','**Lockdowns**', '**Regression**', '**Data**'])
