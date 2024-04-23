@@ -37,7 +37,9 @@ def set_env_and_run_docker(config, dir_path, external_port):
     print(f"Docker Compose Path: {docker_compose_path}")
 
     print(f"Running docker-compose up -d for {dir_path}")
-    subprocess.run(["docker-compose", "-f", docker_compose_path, "up", "--build", "-d"], cwd=dir_path)
+    os.system(f"cp {docker_compose_path} {dir_path}/docker-compose.yml")
+    subprocess.run(["docker-compose", "-f", "docker-compose.yml", "up", "--build", "-d"], cwd=dir_path)
+    os.system(f"rm {dir_path}/docker-compose.yml")
 
 
 def prepare_nginx_config(application_config, external_port):
