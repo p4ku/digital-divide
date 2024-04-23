@@ -3,3 +3,4 @@ mapclassify
 streamlit
 geopandas
 plotly
+statsmodels
