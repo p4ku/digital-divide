@@ -20,5 +20,4 @@ COPY . .
 EXPOSE 8501
 
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-
-ENTRYPOINT streamlit run streamlit_app.py --server.port=8501 --server.address=0.0.0.0 --server.baseUrlPath=${BASE_URL_PATH}
+ENTRYPOINT [ "gunicorn", "--workers=5", "--threads=1", "-b 0.0.0.0:8501", "app:server"]

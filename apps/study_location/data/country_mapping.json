@@ -1,1082 +1,1352 @@
 [
   {
     "geoName": "St. Kitts",
-    "code": "KN"
+    "code": "KN",
+    "CCA3": "KNA"
   },
   {
     "geoName": "North Macedonia",
-    "code": "MK"
+    "code": "MK",
+    "CCA3": "MKD"
   },
   {
     "geoName": "Egypt, Arab Rep.",
-    "code": "EG"
+    "code": "EG",
+    "CCA3": "EGY"
   },
   {
     "geoName": "Eswatini",
-    "code": "SZ"
+    "code": "SZ",
+    "CCA3": "SWZ"
   },
   {
     "geoName": "Iran, Islamic Rep.",
-    "code": "IR"
+    "code": "IR",
+    "CCA3": "IRN"
   },
   {
     "geoName": "Korea, Rep.",
-    "code": "KR"
+    "code": "KR",
+    "CCA3": "KOR"
   },
   {
     "geoName": "Lao PDR",
-    "code": "LA"
+    "code": "LA",
+    "CCA3": "LAO"
   },
   {
     "geoName": "Russian Federation",
-    "code": "RU"
+    "code": "RU",
+    "CCA3": "RUS"
   },
   {
     "geoName": "Slovakia",
-    "code": "SK"
+    "code": "SK",
+    "CCA3": "SVK"
   },
   {
     "geoName": "Venezuela, RB",
-    "code": "VE"
+    "code": "VE",
+    "CCA3": "VEN"
   },
   {
     "geoName": "Yemen, Rep.",
-    "code": "YE"
+    "code": "YE",
+    "CCA3": "YEM"
   },
   {
     "geoName": "Czechia",
-    "code": "CZ"
+    "code": "CZ",
+    "CCA3": "CZE"
   },
   {
     "geoName": "Curacao",
-    "code": "CW"
+    "code": "CW",
+    "CCA3": "CUW"
   },
   {
     "geoName": "Cote d'Ivoire",
-    "code": "CI"
+    "code": "CI",
+    "CCA3": "CIV"
   },
   {
     "geoName": "Belarus",
-    "code": "BY"
+    "code": "BY",
+    "CCA3": "BLR"
   },
   {
     "geoName": "Turkiye",
-    "code": "TR"
+    "code": "TR",
+    "CCA3": "TUR"
   },
   {
     "geoName": "Congo, Dem. Rep.",
-    "code": "CD"
+    "code": "CD",
+    "CCA3": "COD"
   },
   {
     "geoName": "Congo, Rep.",
-    "code": "CG"
+    "code": "CG",
+    "CCA3": "COG"
   },
   {
     "geoName": "Congo",
-    "code": "CG"
+    "code": "CG",
+    "CCA3": "COG"
   },
   {
     "geoName": "Tanzania, United Republic of",
-    "code": "TZ"
+    "code": "TZ",
+    "CCA3": "TZA"
   },
   {
     "geoName": "Afghanistan",
-    "code": "AF"
+    "code": "AF",
+    "CCA3": "AFG"
   },
   {
     "geoName": "Albania",
-    "code": "AL"
+    "code": "AL",
+    "CCA3": "ALB"
   },
   {
     "geoName": "Algeria",
-    "code": "DZ"
+    "code": "DZ",
+    "CCA3": "DZA"
   },
   {
     "geoName": "American Samoa",
-    "code": "AS"
+    "code": "AS",
+    "CCA3": "ASM"
   },
   {
     "geoName": "Andorra",
-    "code": "AD"
+    "code": "AD",
+    "CCA3": "AND"
   },
   {
     "geoName": "Angola",
-    "code": "AO"
+    "code": "AO",
+    "CCA3": "AGO"
   },
   {
     "geoName": "Anguilla",
-    "code": "AI"
+    "code": "AI",
+    "CCA3": "AIA"
   },
   {
     "geoName": "Antarctica",
-    "code": "AQ"
+    "code": "AQ",
+    "CCA3": "ATA"
   },
   {
     "geoName": "Antigua and Barbuda",
-    "code": "AG"
+    "code": "AG",
+    "CCA3": "ATG"
   },
   {
     "geoName": "Argentina",
-    "code": "AR"
+    "code": "AR",
+    "CCA3": "ARG"
   },
   {
     "geoName": "Armenia",
-    "code": "AM"
+    "code": "AM",
+    "CCA3": "ARM"
   },
   {
     "geoName": "Aruba",
-    "code": "AW"
+    "code": "AW",
+    "CCA3": "ABW"
   },
   {
     "geoName": "Australia",
-    "code": "AU"
+    "code": "AU",
+    "CCA3": "AUS"
   },
   {
     "geoName": "Austria",
-    "code": "AT"
+    "code": "AT",
+    "CCA3": "AUT"
   },
   {
     "geoName": "Azerbaijan",
-    "code": "AZ"
+    "code": "AZ",
+    "CCA3": "AZE"
   },
   {
     "geoName": "Bahamas, The",
-    "code": "BS"
+    "code": "BS",
+    "CCA3": "BHS"
   },
   {
     "geoName": "Bahrain",
-    "code": "BH"
+    "code": "BH",
+    "CCA3": "BHR"
   },
   {
     "geoName": "Bangladesh",
-    "code": "BD"
+    "code": "BD",
+    "CCA3": "BGD"
   },
   {
     "geoName": "Barbados",
-    "code": "BB"
+    "code": "BB",
+    "CCA3": "BRB"
   },
   {
     "geoName": "Byelarus",
-    "code": "BY"
+    "code": "BY",
+    "CCA3": "BLR"
   },
   {
     "geoName": "Belgium",
-    "code": "BE"
+    "code": "BE",
+    "CCA3": "BEL"
   },
   {
     "geoName": "Belize",
-    "code": "BZ"
+    "code": "BZ",
+    "CCA3": "BLZ"
   },
   {
     "geoName": "Benin",
-    "code": "BJ"
+    "code": "BJ",
+    "CCA3": "BEN"
   },
   {
     "geoName": "Bermuda",
-    "code": "BM"
+    "code": "BM",
+    "CCA3": "BMU"
   },
   {
     "geoName": "Bhutan",
-    "code": "BT"
+    "code": "BT",
+    "CCA3": "BTN"
   },
   {
     "geoName": "Bolivia",
-    "code": "BO"
+    "code": "BO",
+    "CCA3": "BOL"
   },
   {
     "geoName": "Bosnia and Herzegovina",
-    "code": "BA"
+    "code": "BA",
+    "CCA3": "BIH"
   },
   {
     "geoName": "Botswana",
-    "code": "BW"
+    "code": "BW",
+    "CCA3": "BWA"
   },
   {
     "geoName": "Bouvet Island",
-    "code": "BV"
+    "code": "BV",
+    "CCA3": "BVT"
   },
   {
     "geoName": "Brazil",
-    "code": "BR"
+    "code": "BR",
+    "CCA3": "BRA"
   },
   {
     "geoName": "British Indian Ocean Territory",
-    "code": "IO"
+    "code": "IO",
+    "CCA3": "IOT"
   },
   {
     "geoName": "British Virgin Islands",
-    "code": "VG"
+    "code": "VG",
+    "CCA3": "VGB"
   },
   {
     "geoName": "Brunei",
-    "code": "BN"
+    "code": "BN",
+    "CCA3": "BRN"
   },
   {
     "geoName": "Bulgaria",
-    "code": "BG"
+    "code": "BG",
+    "CCA3": "BGR"
   },
   {
     "geoName": "Burkina Faso",
-    "code": "BF"
+    "code": "BF",
+    "CCA3": "BFA"
   },
   {
     "geoName": "Burundi",
-    "code": "BI"
+    "code": "BI",
+    "CCA3": "BDI"
   },
   {
     "geoName": "Cambodia",
-    "code": "KH"
+    "code": "KH",
+    "CCA3": "KHM"
   },
   {
     "geoName": "Cameroon",
-    "code": "CM"
+    "code": "CM",
+    "CCA3": "CMR"
   },
   {
     "geoName": "Canada",
-    "code": "CA"
+    "code": "CA",
+    "CCA3": "CAN"
   },
   {
     "geoName": "Cape Verde",
-    "code": "CV"
+    "code": "CV",
+    "CCA3": "CPV"
   },
   {
     "geoName": "Caribbean Netherlands",
-    "code": "BQ"
+    "code": "BQ",
+    "CCA3": "BES"
   },
   {
     "geoName": "Cayman Islands",
-    "code": "KY"
+    "code": "KY",
+    "CCA3": "CYM"
   },
   {
     "geoName": "Central African Republic",
-    "code": "CF"
+    "code": "CF",
+    "CCA3": "CAF"
   },
   {
     "geoName": "Chad",
-    "code": "TD"
+    "code": "TD",
+    "CCA3": "TCD"
   },
   {
     "geoName": "Chile",
-    "code": "CL"
+    "code": "CL",
+    "CCA3": "CHL"
   },
   {
     "geoName": "China",
-    "code": "CN"
+    "code": "CN",
+    "CCA3": "CHN"
   },
   {
     "geoName": "Christmas Island",
-    "code": "CX"
+    "code": "CX",
+    "CCA3": "CXR"
   },
   {
     "geoName": "Cocos (Keeling) Islands",
-    "code": "CC"
+    "code": "CC",
+    "CCA3": "CCK"
   },
   {
     "geoName": "Colombia",
-    "code": "CO"
+    "code": "CO",
+    "CCA3": "COL"
   },
   {
     "geoName": "Comoros",
-    "code": "KM"
+    "code": "KM",
+    "CCA3": "COM"
   },
   {
     "geoName": "Congo - Brazzaville",
-    "code": "CG"
+    "code": "CG",
+    "CCA3": "COG"
   },
   {
     "geoName": "Zaire",
-    "code": "CD"
+    "code": "CD",
+    "CCA3": "COD"
   },
   {
     "geoName": "Cook Islands",
-    "code": "CK"
+    "code": "CK",
+    "CCA3": "COK"
   },
   {
     "geoName": "Costa Rica",
-    "code": "CR"
+    "code": "CR",
+    "CCA3": "CRI"
   },
   {
     "geoName": "Croatia",
-    "code": "HR"
+    "code": "HR",
+    "CCA3": "HRV"
   },
   {
     "geoName": "Cuba",
-    "code": "CU"
+    "code": "CU",
+    "CCA3": "CUB"
   },
   {
-    "geoName": "Curaçao",
-    "code": "CW"
+    "geoName": "Cura\u00e7ao",
+    "code": "CW",
+    "CCA3": "CUW"
   },
   {
     "geoName": "Cyprus",
-    "code": "CY"
+    "code": "CY",
+    "CCA3": "CYP"
   },
   {
     "geoName": "Czech Republic",
-    "code": "CZ"
+    "code": "CZ",
+    "CCA3": "CZE"
   },
   {
     "geoName": "Ivory Coast",
-    "code": "CI"
+    "code": "CI",
+    "CCA3": "CIV"
   },
   {
     "geoName": "Denmark",
-    "code": "DK"
+    "code": "DK",
+    "CCA3": "DNK"
   },
   {
     "geoName": "Djibouti",
-    "code": "DJ"
+    "code": "DJ",
+    "CCA3": "DJI"
   },
   {
     "geoName": "Dominica",
-    "code": "DM"
+    "code": "DM",
+    "CCA3": "DMA"
   },
   {
     "geoName": "Dominican Republic",
-    "code": "DO"
+    "code": "DO",
+    "CCA3": "DOM"
   },
   {
     "geoName": "Ecuador",
-    "code": "EC"
+    "code": "EC",
+    "CCA3": "ECU"
   },
   {
     "geoName": "Egypt",
-    "code": "EG"
+    "code": "EG",
+    "CCA3": "EGY"
   },
   {
     "geoName": "El Salvador",
-    "code": "SV"
+    "code": "SV",
+    "CCA3": "SLV"
   },
   {
     "geoName": "Equatorial Guinea",
-    "code": "GQ"
+    "code": "GQ",
+    "CCA3": "GNQ"
   },
   {
     "geoName": "Eritrea",
-    "code": "ER"
+    "code": "ER",
+    "CCA3": "ERI"
   },
   {
     "geoName": "Estonia",
-    "code": "EE"
+    "code": "EE",
+    "CCA3": "EST"
   },
   {
     "geoName": "Swaziland",
-    "code": "SZ"
+    "code": "SZ",
+    "CCA3": "SWZ"
   },
   {
     "geoName": "Ethiopia",
-    "code": "ET"
+    "code": "ET",
+    "CCA3": "ETH"
   },
   {
     "geoName": "Falkland Islands (Islas Malvinas)",
-    "code": "FK"
+    "code": "FK",
+    "CCA3": "FLK"
   },
   {
     "geoName": "Faroe Islands",
-    "code": "FO"
+    "code": "FO",
+    "CCA3": "FRO"
   },
   {
     "geoName": "Fiji",
-    "code": "FJ"
+    "code": "FJ",
+    "CCA3": "FJI"
   },
   {
     "geoName": "Finland",
-    "code": "FI"
+    "code": "FI",
+    "CCA3": "FIN"
   },
   {
     "geoName": "France",
-    "code": "FR"
+    "code": "FR",
+    "CCA3": "FRA"
   },
   {
     "geoName": "French Guiana",
-    "code": "GF"
+    "code": "GF",
+    "CCA3": "GUF"
   },
   {
     "geoName": "French Polynesia",
-    "code": "PF"
+    "code": "PF",
+    "CCA3": "PYF"
   },
   {
     "geoName": "French Southern Territories",
-    "code": "TF"
+    "code": "TF",
+    "CCA3": "ATF"
   },
   {
     "geoName": "Gabon",
-    "code": "GA"
+    "code": "GA",
+    "CCA3": "GAB"
   },
   {
     "geoName": "Gambia, The",
-    "code": "GM"
+    "code": "GM",
+    "CCA3": "GMB"
   },
   {
     "geoName": "Georgia",
-    "code": "GE"
+    "code": "GE",
+    "CCA3": "GEO"
   },
   {
     "geoName": "Germany",
-    "code": "DE"
+    "code": "DE",
+    "CCA3": "DEU"
   },
   {
     "geoName": "Ghana",
-    "code": "GH"
+    "code": "GH",
+    "CCA3": "GHA"
   },
   {
     "geoName": "Gibraltar",
-    "code": "GI"
+    "code": "GI",
+    "CCA3": "GIB"
   },
   {
     "geoName": "Greece",
-    "code": "GR"
+    "code": "GR",
+    "CCA3": "GRC"
   },
   {
     "geoName": "Greenland",
-    "code": "GL"
+    "code": "GL",
+    "CCA3": "GRL"
   },
   {
     "geoName": "Grenada",
-    "code": "GD"
+    "code": "GD",
+    "CCA3": "GRD"
   },
   {
     "geoName": "Guadeloupe",
-    "code": "GP"
+    "code": "GP",
+    "CCA3": "GLP"
   },
   {
     "geoName": "Guam",
-    "code": "GU"
+    "code": "GU",
+    "CCA3": "GUM"
   },
   {
     "geoName": "Guatemala",
-    "code": "GT"
+    "code": "GT",
+    "CCA3": "GTM"
   },
   {
     "geoName": "Guernsey",
-    "code": "GG"
+    "code": "GG",
+    "CCA3": "GGY"
   },
   {
     "geoName": "Guinea",
-    "code": "GN"
+    "code": "GN",
+    "CCA3": "GIN"
   },
   {
     "geoName": "Guinea-Bissau",
-    "code": "GW"
+    "code": "GW",
+    "CCA3": "GNB"
   },
   {
     "geoName": "Guyana",
-    "code": "GY"
+    "code": "GY",
+    "CCA3": "GUY"
   },
   {
     "geoName": "Haiti",
-    "code": "HT"
+    "code": "HT",
+    "CCA3": "HTI"
   },
   {
     "geoName": "Heard and McDonald Islands",
-    "code": "HM"
+    "code": "HM",
+    "CCA3": "HMD"
   },
   {
     "geoName": "Honduras",
-    "code": "HN"
+    "code": "HN",
+    "CCA3": "HND"
   },
   {
     "geoName": "Hong Kong",
-    "code": "HK"
+    "code": "HK",
+    "CCA3": "HKG"
   },
   {
     "geoName": "Hungary",
-    "code": "HU"
+    "code": "HU",
+    "CCA3": "HUN"
   },
   {
     "geoName": "Iceland",
-    "code": "IS"
+    "code": "IS",
+    "CCA3": "ISL"
   },
   {
     "geoName": "India",
-    "code": "IN"
+    "code": "IN",
+    "CCA3": "IND"
   },
   {
     "geoName": "Indonesia",
-    "code": "ID"
+    "code": "ID",
+    "CCA3": "IDN"
   },
   {
     "geoName": "Iran",
-    "code": "IR"
+    "code": "IR",
+    "CCA3": "IRN"
   },
   {
     "geoName": "Iraq",
-    "code": "IQ"
+    "code": "IQ",
+    "CCA3": "IRQ"
   },
   {
     "geoName": "Ireland",
-    "code": "IE"
+    "code": "IE",
+    "CCA3": "IRL"
   },
   {
     "geoName": "Isle of Man",
-    "code": "IM"
+    "code": "IM",
+    "CCA3": "IMN"
   },
   {
     "geoName": "Israel",
-    "code": "IL"
+    "code": "IL",
+    "CCA3": "ISR"
   },
   {
     "geoName": "Italy",
-    "code": "IT"
+    "code": "IT",
+    "CCA3": "ITA"
   },
   {
     "geoName": "Jamaica",
-    "code": "JM"
+    "code": "JM",
+    "CCA3": "JAM"
   },
   {
     "geoName": "Japan",
-    "code": "JP"
+    "code": "JP",
+    "CCA3": "JPN"
   },
   {
     "geoName": "Jersey",
-    "code": "JE"
+    "code": "JE",
+    "CCA3": "JEY"
   },
   {
     "geoName": "Jordan",
-    "code": "JO"
+    "code": "JO",
+    "CCA3": "JOR"
   },
   {
     "geoName": "Kazakhstan",
-    "code": "KZ"
+    "code": "KZ",
+    "CCA3": "KAZ"
   },
   {
     "geoName": "Kenya",
-    "code": "KE"
+    "code": "KE",
+    "CCA3": "KEN"
   },
   {
     "geoName": "Kiribati",
-    "code": "KI"
+    "code": "KI",
+    "CCA3": "KIR"
   },
   {
     "geoName": "Kosovo",
-    "code": "XK"
+    "code": "XK",
+    "CCA3": "KOS"
   },
   {
     "geoName": "Kuwait",
-    "code": "KW"
+    "code": "KW",
+    "CCA3": "KWT"
   },
   {
     "geoName": "Kyrgyzstan",
-    "code": "KG"
+    "code": "KG",
+    "CCA3": "KGZ"
   },
   {
     "geoName": "Laos",
-    "code": "LA"
+    "code": "LA",
+    "CCA3": "LAO"
   },
   {
     "geoName": "Latvia",
-    "code": "LV"
+    "code": "LV",
+    "CCA3": "LVA"
   },
   {
     "geoName": "Lebanon",
-    "code": "LB"
+    "code": "LB",
+    "CCA3": "LBN"
   },
   {
     "geoName": "Lesotho",
-    "code": "LS"
+    "code": "LS",
+    "CCA3": "LSO"
   },
   {
     "geoName": "Liberia",
-    "code": "LR"
+    "code": "LR",
+    "CCA3": "LBR"
   },
   {
     "geoName": "Libya",
-    "code": "LY"
+    "code": "LY",
+    "CCA3": "LBY"
   },
   {
     "geoName": "Liechtenstein",
-    "code": "LI"
+    "code": "LI",
+    "CCA3": "LIE"
   },
   {
     "geoName": "Lithuania",
-    "code": "LT"
+    "code": "LT",
+    "CCA3": "LTU"
   },
   {
     "geoName": "Luxembourg",
-    "code": "LU"
+    "code": "LU",
+    "CCA3": "LUX"
   },
   {
     "geoName": "Macao",
-    "code": "MO"
+    "code": "MO",
+    "CCA3": "MAC"
   },
   {
     "geoName": "Madagascar",
-    "code": "MG"
+    "code": "MG",
+    "CCA3": "MDG"
   },
   {
     "geoName": "Malawi",
-    "code": "MW"
+    "code": "MW",
+    "CCA3": "MWI"
   },
   {
     "geoName": "Malaysia",
-    "code": "MY"
+    "code": "MY",
+    "CCA3": "MYS"
   },
   {
     "geoName": "Maldives",
-    "code": "MV"
+    "code": "MV",
+    "CCA3": "MDV"
   },
   {
     "geoName": "Mali",
-    "code": "ML"
+    "code": "ML",
+    "CCA3": "MLI"
   },
   {
     "geoName": "Malta",
-    "code": "MT"
+    "code": "MT",
+    "CCA3": "MLT"
   },
   {
     "geoName": "Marshall Islands",
-    "code": "MH"
+    "code": "MH",
+    "CCA3": "MHL"
   },
   {
     "geoName": "Martinique",
-    "code": "MQ"
+    "code": "MQ",
+    "CCA3": "MTQ"
   },
   {
     "geoName": "Mauritania",
-    "code": "MR"
+    "code": "MR",
+    "CCA3": "MRT"
   },
   {
     "geoName": "Mauritius",
-    "code": "MU"
+    "code": "MU",
+    "CCA3": "MUS"
   },
   {
     "geoName": "Mayotte",
-    "code": "YT"
+    "code": "YT",
+    "CCA3": "MYT"
   },
   {
     "geoName": "Mexico",
-    "code": "MX"
+    "code": "MX",
+    "CCA3": "MEX"
   },
   {
     "geoName": "Micronesia",
-    "code": "FM"
+    "code": "FM",
+    "CCA3": "FSM"
   },
   {
     "geoName": "Moldova",
-    "code": "MD"
+    "code": "MD",
+    "CCA3": "MDA"
   },
   {
     "geoName": "Monaco",
-    "code": "MC"
+    "code": "MC",
+    "CCA3": "MCO"
   },
   {
     "geoName": "Mongolia",
-    "code": "MN"
+    "code": "MN",
+    "CCA3": "MNG"
   },
   {
     "geoName": "Montenegro",
-    "code": "ME"
+    "code": "ME",
+    "CCA3": "MNE"
   },
   {
     "geoName": "Montserrat",
-    "code": "MS"
+    "code": "MS",
+    "CCA3": "MSR"
   },
   {
     "geoName": "Morocco",
-    "code": "MA"
+    "code": "MA",
+    "CCA3": "MAR"
   },
   {
     "geoName": "Mozambique",
-    "code": "MZ"
+    "code": "MZ",
+    "CCA3": "MOZ"
   },
   {
     "geoName": "Myanmar (Burma)",
-    "code": "MM"
+    "code": "MM",
+    "CCA3": "MMR"
   },
   {
     "geoName": "Namibia",
-    "code": "NA"
+    "code": "NA",
+    "CCA3": "NAM"
   },
   {
     "geoName": "Nauru",
-    "code": "NR"
+    "code": "NR",
+    "CCA3": "NRU"
   },
   {
     "geoName": "Nepal",
-    "code": "NP"
+    "code": "NP",
+    "CCA3": "NPL"
   },
   {
     "geoName": "Netherlands",
-    "code": "NL"
+    "code": "NL",
+    "CCA3": "NLD"
   },
   {
     "geoName": "New Caledonia",
-    "code": "NC"
+    "code": "NC",
+    "CCA3": "NCL"
   },
   {
     "geoName": "New Zealand",
-    "code": "NZ"
+    "code": "NZ",
+    "CCA3": "NZL"
   },
   {
     "geoName": "Nicaragua",
-    "code": "NI"
+    "code": "NI",
+    "CCA3": "NIC"
   },
   {
     "geoName": "Niger",
-    "code": "NE"
+    "code": "NE",
+    "CCA3": "NER"
   },
   {
     "geoName": "Nigeria",
-    "code": "NG"
+    "code": "NG",
+    "CCA3": "NGA"
   },
   {
     "geoName": "Niue",
-    "code": "NU"
+    "code": "NU",
+    "CCA3": "NIU"
   },
   {
     "geoName": "Norfolk Island",
-    "code": "NF"
+    "code": "NF",
+    "CCA3": "NFK"
   },
   {
     "geoName": "North Korea",
-    "code": "KP"
+    "code": "KP",
+    "CCA3": "PRK"
   },
   {
     "geoName": "Macedonia",
-    "code": "MK"
+    "code": "MK",
+    "CCA3": "MKD"
   },
   {
     "geoName": "Northern Mariana Islands",
-    "code": "MP"
+    "code": "MP",
+    "CCA3": "MNP"
   },
   {
     "geoName": "Norway",
-    "code": "NO"
+    "code": "NO",
+    "CCA3": "NOR"
   },
   {
     "geoName": "Oman",
-    "code": "OM"
+    "code": "OM",
+    "CCA3": "OMN"
   },
   {
     "geoName": "Pakistan",
-    "code": "PK"
+    "code": "PK",
+    "CCA3": "PAK"
   },
   {
     "geoName": "Palau",
-    "code": "PW"
+    "code": "PW",
+    "CCA3": "PLW"
   },
   {
     "geoName": "Palestine",
-    "code": "PS"
+    "code": "PS",
+    "CCA3": "PSE"
   },
   {
     "geoName": "Panama",
-    "code": "PA"
+    "code": "PA",
+    "CCA3": "PAN"
   },
   {
     "geoName": "Papua New Guinea",
-    "code": "PG"
+    "code": "PG",
+    "CCA3": "PNG"
   },
   {
     "geoName": "Paraguay",
-    "code": "PY"
+    "code": "PY",
+    "CCA3": "PRY"
   },
   {
     "geoName": "Peru",
-    "code": "PE"
+    "code": "PE",
+    "CCA3": "PER"
   },
   {
     "geoName": "Philippines",
-    "code": "PH"
+    "code": "PH",
+    "CCA3": "PHL"
   },
   {
     "geoName": "Pitcairn Islands",
-    "code": "PN"
+    "code": "PN",
+    "CCA3": "PCN"
   },
   {
     "geoName": "Poland",
-    "code": "PL"
+    "code": "PL",
+    "CCA3": "POL"
   },
   {
     "geoName": "Portugal",
-    "code": "PT"
+    "code": "PT",
+    "CCA3": "PRT"
   },
   {
     "geoName": "Puerto Rico",
-    "code": "PR"
+    "code": "PR",
+    "CCA3": "PRI"
   },
   {
     "geoName": "Qatar",
-    "code": "QA"
+    "code": "QA",
+    "CCA3": "QAT"
   },
   {
     "geoName": "Romania",
-    "code": "RO"
+    "code": "RO",
+    "CCA3": "ROU"
   },
   {
     "geoName": "Russia",
-    "code": "RU"
+    "code": "RU",
+    "CCA3": "RUS"
   },
   {
     "geoName": "Rwanda",
-    "code": "RW"
+    "code": "RW",
+    "CCA3": "RWA"
   },
   {
     "geoName": "Réunion",
-    "code": "RE"
+    "code": "RE",
+    "CCA3": "REU"
   },
   {
     "geoName": "Samoa",
-    "code": "WS"
+    "code": "WS",
+    "CCA3": "WSM"
   },
   {
     "geoName": "San Marino",
-    "code": "SM"
+    "code": "SM",
+    "CCA3": "SMR"
   },
   {
     "geoName": "Saudi Arabia",
-    "code": "SA"
+    "code": "SA",
+    "CCA3": "SAU"
   },
   {
     "geoName": "Senegal",
-    "code": "SN"
+    "code": "SN",
+    "CCA3": "SEN"
   },
   {
     "geoName": "Serbia",
-    "code": "RS"
+    "code": "RS",
+    "CCA3": "SRB"
   },
   {
     "geoName": "Seychelles",
-    "code": "SC"
+    "code": "SC",
+    "CCA3": "SYC"
   },
   {
     "geoName": "Sierra Leone",
-    "code": "SL"
+    "code": "SL",
+    "CCA3": "SLE"
   },
   {
     "geoName": "Singapore",
-    "code": "SG"
+    "code": "SG",
+    "CCA3": "SGP"
   },
   {
     "geoName": "Sint Maarten",
-    "code": "SX"
+    "code": "SX",
+    "CCA3": "SXM"
   },
   {
     "geoName": "Slovakia",
-    "code": "SK"
+    "code": "SK",
+    "CCA3": "SVK"
   },
   {
     "geoName": "Slovenia",
-    "code": "SI"
+    "code": "SI",
+    "CCA3": "SVN"
   },
   {
     "geoName": "Solomon Islands",
-    "code": "SB"
+    "code": "SB",
+    "CCA3": "SLB"
   },
   {
     "geoName": "Somalia",
-    "code": "SO"
+    "code": "SO",
+    "CCA3": "SOM"
   },
   {
     "geoName": "South Africa",
-    "code": "ZA"
+    "code": "ZA",
+    "CCA3": "ZAF"
   },
   {
     "geoName": "South Georgia and South Sandwich Islands",
-    "code": "GS"
+    "code": "GS",
+    "CCA3": "SGS"
   },
   {
     "geoName": "South Korea",
-    "code": "KR"
+    "code": "KR",
+    "CCA3": "KOR"
   },
   {
     "geoName": "South Sudan",
-    "code": "SS"
+    "code": "SS",
+    "CCA3": "SSD"
   },
   {
     "geoName": "Spain",
-    "code": "ES"
+    "code": "ES",
+    "CCA3": "ESP"
   },
   {
     "geoName": "Sri Lanka",
-    "code": "LK"
+    "code": "LK",
+    "CCA3": "LKA"
   },
   {
     "geoName": "St. Barthélemy",
-    "code": "BL"
+    "code": "BL",
+    "CCA3": "BLM"
   },
   {
     "geoName": "St. Helena",
-    "code": "SH"
+    "code": "SH",
+    "CCA3": "SHN"
   },
   {
     "geoName": "St. Kitts and Nevis",
-    "code": "KN"
+    "code": "KN",
+    "CCA3": "KNA"
   },
   {
     "geoName": "St. Lucia",
-    "code": "LC"
+    "code": "LC",
+    "CCA3": "LCA"
   },
   {
     "geoName": "St. Martin",
-    "code": "MF"
+    "code": "MF",
+    "CCA3": "MAF"
   },
   {
     "geoName": "St. Pierre and Miquelon",
-    "code": "PM"
+    "code": "PM",
+    "CCA3": "SPM"
   },
   {
     "geoName": "St. Vincent and Grenadines",
-    "code": "VC"
+    "code": "VC",
+    "CCA3": "VCT"
   },
   {
     "geoName": "Sudan",
-    "code": "SD"
+    "code": "SD",
+    "CCA3": "SDN"
   },
   {
     "geoName": "Suriname",
-    "code": "SR"
+    "code": "SR",
+    "CCA3": "SUR"
   },
   {
     "geoName": "Svalbard and Jan Mayen",
-    "code": "SJ"
+    "code": "SJ",
+    "CCA3": "SJM"
   },
   {
     "geoName": "Sweden",
-    "code": "SE"
+    "code": "SE",
+    "CCA3": "SWE"
   },
   {
     "geoName": "Switzerland",
-    "code": "CH"
+    "code": "CH",
+    "CCA3": "CHE"
   },
   {
     "geoName": "Syria",
-    "code": "SY"
+    "code": "SY",
+    "CCA3": "SYR"
   },
   {
     "geoName": "São Tomé and Príncipe",
-    "code": "ST"
+    "code": "ST",
+    "CCA3": "STP"
   },
   {
     "geoName": "Taiwan",
-    "code": "TW"
+    "code": "TW",
+    "CCA3": "TWN"
   },
   {
     "geoName": "Tajikistan",
-    "code": "TJ"
+    "code": "TJ",
+    "CCA3": "TJK"
   },
   {
     "geoName": "Tanzania",
-    "code": "TZ"
+    "code": "TZ",
+    "CCA3": "TZA"
   },
   {
     "geoName": "Thailand",
-    "code": "TH"
+    "code": "TH",
+    "CCA3": "THA"
   },
   {
     "geoName": "Timor-Leste",
-    "code": "TL"
+    "code": "TL",
+    "CCA3": "TLS"
   },
   {
     "geoName": "Togo",
-    "code": "TG"
+    "code": "TG",
+    "CCA3": "TGO"
   },
   {
     "geoName": "Tokelau",
-    "code": "TK"
+    "code": "TK",
+    "CCA3": "TKL"
   },
   {
     "geoName": "Tonga",
-    "code": "TO"
+    "code": "TO",
+    "CCA3": "TON"
   },
   {
     "geoName": "Trinidad and Tobago",
-    "code": "TT"
+    "code": "TT",
+    "CCA3": "TTO"
   },
   {
     "geoName": "Tunisia",
-    "code": "TN"
+    "code": "TN",
+    "CCA3": "TUN"
   },
   {
     "geoName": "Turkmenistan",
-    "code": "TM"
+    "code": "TM",
+    "CCA3": "TKM"
   },
   {
     "geoName": "Turks and Caicos Islands",
-    "code": "TC"
+    "code": "TC",
+    "CCA3": "TCA"
   },
   {
     "geoName": "Tuvalu",
-    "code": "TV"
+    "code": "TV",
+    "CCA3": "TUV"
   },
   {
     "geoName": "Turkey",
-    "code": "TR"
+    "code": "TR",
+    "CCA3": "TUR"
   },
   {
     "geoName": "U.S. Outlying Islands",
-    "code": "UM"
+    "code": "UM",
+    "CCA3": "UMI"
   },
   {
     "geoName": "U.S. Virgin Islands",
-    "code": "VI"
+    "code": "VI",
+    "CCA3": "VIR"
   },
   {
     "geoName": "Uganda",
-    "code": "UG"
+    "code": "UG",
+    "CCA3": "UGA"
   },
   {
     "geoName": "Ukraine",
-    "code": "UA"
+    "code": "UA",
+    "CCA3": "UKR"
   },
   {
     "geoName": "United Arab Emirates",
-    "code": "AE"
+    "code": "AE",
+    "CCA3": "ARE"
   },
   {
     "geoName": "United Kingdom",
-    "code": "GB"
+    "code": "GB",
+    "CCA3": "GBR"
   },
   {
     "geoName": "United States",
-    "code": "US"
+    "code": "US",
+    "CCA3": "USA"
   },
   {
     "geoName": "Uruguay",
-    "code": "UY"
+    "code": "UY",
+    "CCA3": "URY"
   },
   {
     "geoName": "Uzbekistan",
-    "code": "UZ"
+    "code": "UZ",
+    "CCA3": "UZB"
   },
   {
     "geoName": "Vanuatu",
-    "code": "VU"
+    "code": "VU",
+    "CCA3": "VUT"
   },
   {
     "geoName": "Vatican City",
-    "code": "VA"
+    "code": "VA",
+    "CCA3": "VAT"
   },
   {
     "geoName": "Venezuela",
-    "code": "VE"
+    "code": "VE",
+    "CCA3": "VEN"
   },
   {
     "geoName": "Vietnam",
-    "code": "VN"
+    "code": "VN",
+    "CCA3": "VNM"
   },
   {
     "geoName": "Wallis and Futuna",
-    "code": "WF"
+    "code": "WF",
+    "CCA3": "WLF"
   },
   {
     "geoName": "Western Sahara",
-    "code": "EH"
+    "code": "EH",
+    "CCA3": "ESH"
   },
   {
     "geoName": "Yemen",
-    "code": "YE"
+    "code": "YE",
+    "CCA3": "YEM"
   },
   {
     "geoName": "Zambia",
-    "code": "ZM"
+    "code": "ZM",
+    "CCA3": "ZMB"
   },
   {
     "geoName": "Zimbabwe",
-    "code": "ZW"
+    "code": "ZW",
+    "CCA3": "ZWE"
   },
   {
     "geoName": "Åland Islands",
-    "code": "AX"
+    "code": "AX",
+    "CCA3": "ALA"
   }
 ]
